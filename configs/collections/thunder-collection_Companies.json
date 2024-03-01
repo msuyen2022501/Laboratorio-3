@@ -1,0 +1,105 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Companies",
+    "dateExported": "2024-03-01T17:58:08.532Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "e99eb0f0-2c57-4654-8ce3-64f8d91e7492",
+            "colId": "44c1a526-ba6a-46c3-a4b1-7888767017da",
+            "containerId": "",
+            "name": "añosTrayectoria",
+            "url": "http://localhost:5000/GestorEmpresas/v1/companies/trayectoria",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-03-01T17:04:24.821Z",
+            "modified": "2024-03-01T17:51:29.028Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUxZTYzYWQxNDY3N2YwODM0ODQyMzciLCJpYXQiOjE3MDkzMTQ3MzgsImV4cCI6MTcwOTMxODMzOH0.GVcpjlWkRO06SKjyQR0Ap_Zytf1bW1_TMQhLe_g6jLc"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"trayectoria\": 10\r\n}\r\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "30e506cd-96e3-4ed0-ad20-ee0873403eb0",
+            "colId": "44c1a526-ba6a-46c3-a4b1-7888767017da",
+            "containerId": "",
+            "name": "categoria",
+            "url": "http://localhost:5000/GestorEmpresas/v1/companies/categoria",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-03-01T17:05:21.627Z",
+            "modified": "2024-03-01T17:54:35.617Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUxZTYzYWQxNDY3N2YwODM0ODQyMzciLCJpYXQiOjE3MDkzMTQ3MzgsImV4cCI6MTcwOTMxODMzOH0.GVcpjlWkRO06SKjyQR0Ap_Zytf1bW1_TMQhLe_g6jLc"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"categoria\": \"tecnologia\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "cf0749e1-a9d1-46fd-8cd7-410316b55c60",
+            "colId": "44c1a526-ba6a-46c3-a4b1-7888767017da",
+            "containerId": "",
+            "name": "nivelImpacto",
+            "url": "http://localhost:5000/GestorEmpresas/v1/companies/nivelImpacto",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-03-01T17:05:46.451Z",
+            "modified": "2024-03-01T17:57:26.612Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUxZTYzYWQxNDY3N2YwODM0ODQyMzciLCJpYXQiOjE3MDkzMTQ3MzgsImV4cCI6MTcwOTMxODMzOH0.GVcpjlWkRO06SKjyQR0Ap_Zytf1bW1_TMQhLe_g6jLc"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nivelImpacto\": \"alto\"\n  \n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "f10fe743-e4c9-47a7-a303-72e2098c5391",
+            "colId": "44c1a526-ba6a-46c3-a4b1-7888767017da",
+            "containerId": "",
+            "name": "editCompany",
+            "url": "http://localhost:5000/GestorEmpresas/v1/companies/65e203ac4a7a291407145a8a",
+            "method": "PUT",
+            "sortNum": 70000,
+            "created": "2024-03-01T17:37:44.885Z",
+            "modified": "2024-03-01T17:48:12.940Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUxZTYzYWQxNDY3N2YwODM0ODQyMzciLCJpYXQiOjE3MDkzMTQ3MzgsImV4cCI6MTcwOTMxODMzOH0.GVcpjlWkRO06SKjyQR0Ap_Zytf1bW1_TMQhLe_g6jLc"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"TECNOLOGIAAAAA\",\n  \"descripcion\":\"Empresa de tecnologia\",\n  \"contacto\":\"45654345\",\n  \"categoria\":\"tecnologia\",\n  \"trayectoria\":\"10\",\n  \"nivelImpacto\":\"alto\",\n  \"correo\":\"tecnologia@email.com\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

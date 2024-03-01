@@ -1,0 +1,104 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Admin",
+    "dateExported": "2024-03-01T17:58:01.156Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "b69e8562-da69-482c-b917-9ba5aa9ee9e0",
+            "colId": "cbb0d7c8-0ce2-456e-bbda-21da6ed47b39",
+            "containerId": "",
+            "name": "adminPost",
+            "url": "http://localhost:5000/GestorEmpresas/v1/admin",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-01T13:21:52.866Z",
+            "modified": "2024-03-01T14:29:13.254Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"Mario\",\n  \"password\":\"123456\",\n  \"correo\":\"Mario@email.com\",\n  \"phone\": \"34545678\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "efa66c29-96e0-4d81-8b70-4d7131b469fc",
+            "colId": "cbb0d7c8-0ce2-456e-bbda-21da6ed47b39",
+            "containerId": "",
+            "name": "adminGet",
+            "url": "http://localhost:5000/GestorEmpresas/v1/admin",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-03-01T13:24:05.805Z",
+            "modified": "2024-03-01T13:24:12.462Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "5f44a0a1-9b24-4bac-882a-caff5b3310a6",
+            "colId": "cbb0d7c8-0ce2-456e-bbda-21da6ed47b39",
+            "containerId": "",
+            "name": "adminLogin",
+            "url": "http://localhost:5000/GestorEmpresas/v1/auth/login",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-03-01T13:24:36.278Z",
+            "modified": "2024-03-01T14:29:27.577Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"correo\": \"Mario@email.com\",\n  \"password\": \"123456\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "3a6ef056-bf36-4373-b51e-fcd74888629e",
+            "colId": "cbb0d7c8-0ce2-456e-bbda-21da6ed47b39",
+            "containerId": "",
+            "name": "companiesPost",
+            "url": "http://localhost:5000/GestorEmpresas/v1/companies",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-03-01T15:22:33.825Z",
+            "modified": "2024-03-01T16:54:36.774Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUxZTYzYWQxNDY3N2YwODM0ODQyMzciLCJpYXQiOjE3MDkzMDkxMzQsImV4cCI6MTcwOTMxMjczNH0.XycUtHZJP3L2HaujA-nxWWPXyFfigEh5H_wTIS6L75g"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"TEC1\",\n  \"descripcion\":\"Empresa de tecnologia\",\n  \"contacto\":\"45654345\",\n  \"categoria\":\"tecnologia\",\n  \"trayectoria\":\"10\",\n  \"nivelImpacto\":\"alto\",\n  \"correo\":\"tec1@email.com\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "f9b9520c-19ac-4b21-82c9-6c139f504fc9",
+            "colId": "cbb0d7c8-0ce2-456e-bbda-21da6ed47b39",
+            "containerId": "",
+            "name": "companiesGet",
+            "url": "http://localhost:5000/GestorEmpresas/v1/companies",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2024-03-01T16:10:53.570Z",
+            "modified": "2024-03-01T17:48:38.899Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUxZTYzYWQxNDY3N2YwODM0ODQyMzciLCJpYXQiOjE3MDkzMTQ3MzgsImV4cCI6MTcwOTMxODMzOH0.GVcpjlWkRO06SKjyQR0Ap_Zytf1bW1_TMQhLe_g6jLc"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
