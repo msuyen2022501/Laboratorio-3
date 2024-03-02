@@ -1,0 +1,133 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Companies",
+    "dateExported": "2024-03-02T01:25:47.041Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "76f2d76e-cfd4-4546-9801-b6530dddcb37",
+            "colId": "a1279d0c-b8ad-40f3-b61e-666aaf5451e0",
+            "containerId": "",
+            "name": "añosTrayectoria",
+            "url": "http://localhost:5000/GestorEmpresas/v1/companies/trayectoria",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-03-02T00:21:45.682Z",
+            "modified": "2024-03-02T00:50:59.894Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUyNzE0OWExYjJmMTAzN2YwZWRiZTciLCJpYXQiOjE3MDkzMzg5NjcsImV4cCI6MTcwOTM0MjU2N30.MJYpF3eAwBtay0uoC2gvWMQrKjVRyBUg_lc-zFMkLRA"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"trayectoria\": 3\n}\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "71d7b99d-40d2-4558-a113-ae9e199c77d7",
+            "colId": "a1279d0c-b8ad-40f3-b61e-666aaf5451e0",
+            "containerId": "",
+            "name": "categoria",
+            "url": "http://localhost:5000/GestorEmpresas/v1/companies/categoria",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-03-02T00:21:45.683Z",
+            "modified": "2024-03-02T00:51:13.175Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUyNzE0OWExYjJmMTAzN2YwZWRiZTciLCJpYXQiOjE3MDkzMzg5NjcsImV4cCI6MTcwOTM0MjU2N30.MJYpF3eAwBtay0uoC2gvWMQrKjVRyBUg_lc-zFMkLRA"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"categoria\": \"venta\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "0a443f1c-dbb5-459d-8bed-8164758c1a5a",
+            "colId": "a1279d0c-b8ad-40f3-b61e-666aaf5451e0",
+            "containerId": "",
+            "name": "nivelImpacto",
+            "url": "http://localhost:5000/GestorEmpresas/v1/companies/nivelImpacto",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-03-02T00:21:45.684Z",
+            "modified": "2024-03-02T00:51:29.454Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUyNzE0OWExYjJmMTAzN2YwZWRiZTciLCJpYXQiOjE3MDkzMzg5NjcsImV4cCI6MTcwOTM0MjU2N30.MJYpF3eAwBtay0uoC2gvWMQrKjVRyBUg_lc-zFMkLRA"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nivelImpacto\": \"bajo\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "a7f7ea34-3492-4b80-b308-ed37a743e406",
+            "colId": "a1279d0c-b8ad-40f3-b61e-666aaf5451e0",
+            "containerId": "",
+            "name": "editCompany",
+            "url": "http://localhost:5000/GestorEmpresas/v1/companies/65e27f5ec08810dd66ac0934",
+            "method": "PUT",
+            "sortNum": 70000,
+            "created": "2024-03-02T00:21:45.685Z",
+            "modified": "2024-03-02T01:24:08.248Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUyNzE0OWExYjJmMTAzN2YwZWRiZTciLCJpYXQiOjE3MDkzNDI2MzgsImV4cCI6MTcwOTM0NjIzOH0.9-1R0rvZzaccv5516w80-3Ft9oiBYI4KUdvP3Ip8xjw"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"SG\",\n  \"descripcion\":\"Empresa de tecnologia\",\n  \"contacto\":\"45654345\",\n  \"categoria\":\"tecnologia\",\n  \"trayectoria\":\"10\",\n  \"nivelImpacto\":\"alto\",\n  \"correo\":\"sg@email.com\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d5142581-0446-4466-be78-3db60b15d2ac",
+            "colId": "a1279d0c-b8ad-40f3-b61e-666aaf5451e0",
+            "containerId": "",
+            "name": "A-Z",
+            "url": "http://localhost:5000/GestorEmpresas/v1/companies/a-z",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2024-03-02T00:35:25.345Z",
+            "modified": "2024-03-02T00:36:53.926Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d2b74a26-e64d-4b26-95d6-23d3edb3b7ee",
+            "colId": "a1279d0c-b8ad-40f3-b61e-666aaf5451e0",
+            "containerId": "",
+            "name": "Z-A",
+            "url": "http://localhost:5000/GestorEmpresas/v1/companies/z-a",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2024-03-02T00:53:36.965Z",
+            "modified": "2024-03-02T00:53:46.181Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

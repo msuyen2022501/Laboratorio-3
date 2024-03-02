@@ -1,0 +1,90 @@
+[{
+  "_id": {
+    "$oid": "65e2716aa1b2f1037f0edbef"
+  },
+  "nombre": "TECNOLOGIAAAAA",
+  "correo": "tecnologia@email.com",
+  "descripcion": "Empresa de tecnologia",
+  "contacto": 45654345,
+  "categoria": "tecnologia",
+  "trayectoria": 10,
+  "nivelImpacto": "alto",
+  "estado": true,
+  "google": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e2775ac2d679dc14c74599"
+  },
+  "nombre": "Adonanis",
+  "correo": "adonanis@email.com",
+  "descripcion": "Bancos",
+  "contacto": 45654345,
+  "categoria": "financiera",
+  "trayectoria": 5,
+  "nivelImpacto": "alto",
+  "estado": true,
+  "google": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e27798c2d679dc14c7459e"
+  },
+  "nombre": "Hospital",
+  "correo": "hospital@email.com",
+  "descripcion": "Hospital de salud",
+  "contacto": 45654345,
+  "categoria": "salud",
+  "trayectoria": 30,
+  "nivelImpacto": "alto",
+  "estado": true,
+  "google": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e277c3c2d679dc14c745a3"
+  },
+  "nombre": "Babel",
+  "correo": "Babel@email.com",
+  "descripcion": "Tienda de libros",
+  "contacto": 45654345,
+  "categoria": "venta",
+  "trayectoria": 3,
+  "nivelImpacto": "bajo",
+  "estado": true,
+  "google": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e277e3c2d679dc14c745a8"
+  },
+  "nombre": "Trifuerza",
+  "correo": "Trifuerza@email.com",
+  "descripcion": "Tienda de articulos",
+  "contacto": 45654345,
+  "categoria": "venta",
+  "trayectoria": 1,
+  "nivelImpacto": "bajo",
+  "estado": true,
+  "google": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e27f5ec08810dd66ac0934"
+  },
+  "nombre": "SG",
+  "correo": "sg@email.com",
+  "descripcion": "Empresa de tecnologia",
+  "contacto": 45654345,
+  "categoria": "tecnologia",
+  "trayectoria": 10,
+  "nivelImpacto": "alto",
+  "estado": true,
+  "google": true,
+  "__v": 0
+}]

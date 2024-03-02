@@ -1,0 +1,28 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Excel",
+    "dateExported": "2024-03-02T01:25:53.494Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "265a90af-0d97-4370-a3ce-434c4aef6268",
+            "colId": "b28e4ac6-fa18-4190-a4f3-fd7963aa13f4",
+            "containerId": "",
+            "name": "companiesExcel",
+            "url": "http://localhost:5000/GestorEmpresas/v1/companies/excel",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-03-02T00:56:01.409Z",
+            "modified": "2024-03-02T01:24:35.548Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUyNzE0OWExYjJmMTAzN2YwZWRiZTciLCJpYXQiOjE3MDkzNDI2MzgsImV4cCI6MTcwOTM0NjIzOH0.9-1R0rvZzaccv5516w80-3Ft9oiBYI4KUdvP3Ip8xjw"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

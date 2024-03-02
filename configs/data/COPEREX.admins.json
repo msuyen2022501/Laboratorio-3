@@ -1,0 +1,52 @@
+[{
+  "_id": {
+    "$oid": "65e12098245c54e0f58b268e"
+  },
+  "nombre": "Test1",
+  "correo": "Test@email.com",
+  "password": "$2a$10$3EFe8mS3HBSLpeV6MSJF7uGXabG3XcsrK8zd5V8Milmz.Zp28e7WW",
+  "phone": "45654345",
+  "role": "ADMIN_ROLE",
+  "estado": true,
+  "google": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e13566fdf205bcda476750"
+  },
+  "nombre": "Dieguito",
+  "correo": "Dieguito@email.com",
+  "password": "$2a$10$sKHJiL4PNo1eyA7cfMW3RuzVe0q8YNkks9xIaQ2Cgw4BE7fXfyZjq",
+  "phone": "45654345",
+  "role": "ADMIN_ROLE",
+  "estado": true,
+  "google": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e13d27a0d1d74f7f6f1537"
+  },
+  "nombre": "Dieguito1",
+  "correo": "Dieguito1@email.com",
+  "password": "$2a$10$ZdG8g0A9rSjWnf6mSKZfjOW5l4wmVypqtY.MoktAgifpP/0R3/Hoe",
+  "phone": "45654345",
+  "role": "ADMIN_ROLE",
+  "estado": true,
+  "google": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e27149a1b2f1037f0edbe7"
+  },
+  "nombre": "Mario",
+  "correo": "Mario@email.com",
+  "password": "$2a$10$59lORInioRDl0jmpBhn7hOSlbJRWPgScyaip2jc9dYNYtELqlVWRS",
+  "phone": "34545678",
+  "role": "ADMIN_ROLE",
+  "estado": true,
+  "google": true,
+  "__v": 0
+}]

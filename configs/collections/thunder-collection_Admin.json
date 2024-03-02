@@ -1,0 +1,104 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Admin",
+    "dateExported": "2024-03-02T01:25:41.287Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "f2270f00-71ce-4169-acfd-92d76f63afff",
+            "colId": "4a49a451-6a92-4c3f-aa84-0a6c82b4b4e9",
+            "containerId": "",
+            "name": "adminPost",
+            "url": "http://localhost:5000/GestorEmpresas/v1/admin",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-02T00:21:45.665Z",
+            "modified": "2024-03-02T00:21:45.665Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"Mario\",\n  \"password\":\"123456\",\n  \"correo\":\"Mario@email.com\",\n  \"phone\": \"34545678\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "1b1254d7-3007-4909-8e52-b912378d6f40",
+            "colId": "4a49a451-6a92-4c3f-aa84-0a6c82b4b4e9",
+            "containerId": "",
+            "name": "adminGet",
+            "url": "http://localhost:5000/GestorEmpresas/v1/admin",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-03-02T00:21:45.666Z",
+            "modified": "2024-03-02T00:21:45.666Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "ff23c6cb-b0d5-4a56-b358-6b99dcdf5304",
+            "colId": "4a49a451-6a92-4c3f-aa84-0a6c82b4b4e9",
+            "containerId": "",
+            "name": "adminLogin",
+            "url": "http://localhost:5000/GestorEmpresas/v1/auth/login",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-03-02T00:21:45.667Z",
+            "modified": "2024-03-02T00:21:45.667Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"correo\": \"Mario@email.com\",\n  \"password\": \"123456\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "3cda0aa7-09d8-4ac9-bc1e-53490349b02e",
+            "colId": "4a49a451-6a92-4c3f-aa84-0a6c82b4b4e9",
+            "containerId": "",
+            "name": "companiesPost",
+            "url": "http://localhost:5000/GestorEmpresas/v1/companies",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-03-02T00:21:45.668Z",
+            "modified": "2024-03-02T01:22:37.210Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUyNzE0OWExYjJmMTAzN2YwZWRiZTciLCJpYXQiOjE3MDkzMzg5NjcsImV4cCI6MTcwOTM0MjU2N30.MJYpF3eAwBtay0uoC2gvWMQrKjVRyBUg_lc-zFMkLRA"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"SG\",\n  \"descripcion\":\"Desarolladora\",\n  \"contacto\":\"45654345\",\n  \"categoria\":\"tecnologia\",\n  \"trayectoria\":\"4\",\n  \"nivelImpacto\":\"alta\",\n  \"correo\":\"sg@email.com\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "222b1f55-32fd-48ba-8f95-ded4980d2691",
+            "colId": "4a49a451-6a92-4c3f-aa84-0a6c82b4b4e9",
+            "containerId": "",
+            "name": "companiesGet",
+            "url": "http://localhost:5000/GestorEmpresas/v1/companies",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2024-03-02T00:21:45.669Z",
+            "modified": "2024-03-02T01:24:21.959Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUyNzE0OWExYjJmMTAzN2YwZWRiZTciLCJpYXQiOjE3MDkzNDI2MzgsImV4cCI6MTcwOTM0NjIzOH0.9-1R0rvZzaccv5516w80-3Ft9oiBYI4KUdvP3Ip8xjw"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
